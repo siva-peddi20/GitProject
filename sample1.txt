@@ -1,0 +1,73 @@
+Git Commands for how code will be move to git remote server
+===================================================
+
+to initialise the current folder as git repo
+
+git init
+
+to check the status
+
+git status
+
+to send files from workingdir to staging area
+
+git add filename
+
+to all files
+
+git add .
+
+move files from SA to WD
+
+git rm --cached sample1.txt
+
+to move from SA to branch
+
+git commit -m "First Commit"
+
+to check commits what we did
+
+git log
+
+
+Git branching commands:
+
+============================================
+
+1. To see the list of all local branches
+git branch
+
+2.To see all branches(Local and remote)
+git branch -a
+
+3.to create a branch
+git branch branch_name
+
+4.to move into a branch
+
+git checkout branch_Name
+
+5.to create a new branch and also move into it
+git checkout -b branch_name
+
+6.to merge a branch
+
+git merge branch_name
+
+7.to delete a branch that is merged
+git branch -d branch_name
+this is also called a soft delete
+
+8..to delete a branch that is notmerged
+git branch -D branch_name
+this is also called a hard delete
+
+======================================================
+
+git clone: download the code from remoteserver git to local pc
+
+git fetch : download the modify the data and doesn't interrupt existing data
+
+git pull :  
+
+
